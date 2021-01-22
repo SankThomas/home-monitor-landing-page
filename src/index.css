@@ -10,6 +10,12 @@
   --testimonial-color: hsl(271, 70%, 60%);
   --border: 0.5px solid hsl(0, 0%, 69%);
   --border-radius: 5px;
+  --blog-tag-1: hsla(155, 100%, 35%, 0.15);
+  --blog-tag-1-text: hsl(0, 181, 105);
+  --blog-tag-2: hsla(274, 100%, 41%, 0.15);
+  --blog-tag-2-text: hsl(274, 100, 41, 1);
+  --blog-tag-3: hsla(22, 98%, 49%, 0.15);
+  --blog-tag-3-text: hsl(22, 98, 49, 1);
 }
 
 body {
