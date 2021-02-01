@@ -39,3 +39,7 @@ h6 {
 small {
   background-color: var(--tags-color);
 }
+
+li {
+  list-style-type: none;
+}

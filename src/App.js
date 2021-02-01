@@ -1,6 +1,11 @@
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import Listings from './components/Listings'
+import About from './components/About'
+import Testimonial from './components/Testimonial'
+import Blog from './components/Blog'
+import Mobile from './components/Mobile'
+import Footer from './components/Footer'
 
 const App = () => {
   return (
@@ -8,6 +13,11 @@ const App = () => {
       <Navbar />
       <Hero />
       <Listings />
+      <About />
+      <Testimonial />
+      <Blog />
+      <Mobile />
+      <Footer />
     </>
   )
 }

@@ -5,6 +5,7 @@ import { HiLocationMarker } from 'react-icons/hi'
 import { BsHeart } from 'react-icons/bs'
 
 const Listings = () => {
+  // eslint-disable-next-line
   const [cards, setCards] = useState(data)
 
   return (
@@ -47,16 +48,21 @@ const Listings = () => {
                   {tag4}
                 </small>
               </div>
-              <div className="flex items-center justify-between">
-                <h3>{title}</h3>
-                <p>{details}</p>
+              <div className="flex items-center justify-between mb-4">
+                <h3 className="text-xl">{title}</h3>
+                <p className="underline text-sm cursor-pointer">{details}</p>
               </div>
-              <p>
-                <HiLocationMarker /> {location}
+              <p className="flex items-center text-purple-900 text-sm mb-3">
+                <HiLocationMarker className="mr-3 text-yellow-400 text-xl" />{' '}
+                {location}
               </p>
-              <p>
-                <FaPhone /> {phone}
+              <p className="flex items-center text-purple-900 text-sm">
+                <FaPhone className="mr-3 text-yellow-400 text-xl" /> {phone}
               </p>
+
+              <div className="absolute top-8 right-8 bg-yellow-300 inline-block p-2 rounded-full">
+                <BsHeart className="text-xl" />
+              </div>
             </div>
           )
         })}

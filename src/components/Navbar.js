@@ -3,6 +3,7 @@ import data from '../data/navbar'
 import logo from '../images/logo.png'
 
 const Navbar = () => {
+  // eslint-disable-next-line
   const [links, setLinks] = useState(data)
 
   return (
